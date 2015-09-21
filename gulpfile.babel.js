@@ -1,11 +1,11 @@
 console.time('require');
-var gulp = require('gulp');
-var stylus = require('gulp-stylus');
-var uglify = require('gulp-uglify');
-var imagemin = require('gulp-imagemin');
+import gulp from 'gulp';
+import stylus from 'gulp-stylus';
+import uglify from 'gulp-uglify';
+import imagemin from 'gulp-imagemin';
 console.timeEnd('require');
 
-gulp.task('css', function () {
+gulp.task('css', () => {
   return gulp.src('./src/css/*.styl')
     .pipe(stylus({
       compress: true
@@ -13,13 +13,13 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('js', function() {
+gulp.task('js', () => {
   return gulp.src('./src/js/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('./build/js'));
 });
 
-gulp.task('img', function () {
+gulp.task('img', () => {
   return gulp.src('./src/img/*')
     .pipe(imagemin({
         progressive: true,
@@ -28,6 +28,4 @@ gulp.task('img', function () {
     .pipe(gulp.dest('./build/img'));
 });
 
-gulp.task('default', ['css', 'js', 'img'], function(){
-
-});
+gulp.task('default', ['css', 'js', 'img'], () => {} );
