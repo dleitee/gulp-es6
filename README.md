@@ -8,3 +8,23 @@ Example gulp with ES6 presented in the article [gulp + ES6= ❤](https://medium.
 
 ##Using ES6:
 ![Using ES6](https://cloud.githubusercontent.com/assets/2229108/10079035/32ff5f84-62be-11e5-95d8-865be018c594.png)
+
+##Running Locally
+
+Clone this repository to your local machine.
+
+```
+$ git clone https://github.com/dleitee/gulp-es6.git
+$ cd gulp-es6
+```
+
+Install the package dependencies.
+```
+$ npm install
+```
+
+Running gulpfile.
+
+```
+$ gulp
+```
