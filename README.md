@@ -1,6 +1,7 @@
 # gulp-es6
 
-Example gulp with ES6 presented in the article [gulp + ES6= ❤](https://medium.com/@dleitee/gulp-es2015-b2070a723367).
+Example gulp with ES6 presented in the article [gulp + ES6= ❤](https://medium.com/@dleitee/gulp-es2015-b2070a723367)
+*(pt-BR)*.
 
 ##Using ES5:
 
