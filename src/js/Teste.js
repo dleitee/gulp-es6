@@ -1,4 +1,4 @@
-(function(){
-    'use strict';
-    console.log('teste');
-}());
+(function () {
+  'use strict'
+  console.log('teste')
+})()
