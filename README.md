@@ -1,5 +1,7 @@
 # gulp-es6
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dleitee/gulp-es6.svg)](https://greenkeeper.io/)
+
 Example gulp with ES6 presented in the article [gulp + ES6= ❤](https://medium.com/@dleitee/gulp-es2015-b2070a723367)
 *(pt-BR)*.
 
